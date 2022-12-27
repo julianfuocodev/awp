@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <p class="historico">Total Historico</p>
+    </header>
+
+
+    <form action="">
+        <input type="text" autocomplete="off" id="nombre" placeholder="nombre">
+        <input type="text" autocomplete="off" id="descripcion" placeholder="descripcion">
+        <input type="number" autocomplete="off" id="precio" placeholder="precio">
+        <button id="enviar">Enviar</button>
+    </form>
+
+    <h1>Lista de productos</h1>
+
+    <div id="root">
+    </div>
+
+    <button id="comprarActual">Comprar Actual</button>
+    <button id="restaurar">Restaurar</button>
+    <button id="vistaProductos">Todos los Productos a comprar</button>
+
+
+    <button id="borrarBBDD">Borrar Base de Datos</button>
+
+    <footer id="total">Total = 0</footer>
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
